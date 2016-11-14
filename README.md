@@ -6,8 +6,8 @@ Output : **output.json**
 # Program : book.py
 
 The file contains a program to perform live chat with the ChatBot written in python 3 and is connected to the Api.ai agent
-
-Intents : bookTour
+<br />
+Intents : bookTour<br />
 Entities: place and quantity
 
 Sample program output:
