@@ -10,17 +10,17 @@ The file contains a program to perform live chat with the ChatBot written in pyt
 
 Sample program output:
 
->> Hey
+ Hey
 Hi there
->> I wish to go on a tour
+ I wish to go on a tour
 Which place do you wish to take a tour of ?
->> Disneyland
+ Disneyland
 Okay, so how many adults?
->> couple
+ couple
 How many children?
->> zero
+ zero
 Which date do you want to go on ?
->> 19th of this month
+ 19th of this month
 The booking to Disneyland has been made for 2016-11-19 for 2Adults and 0 children
 Total booking amount is 2400/- Rupees
->> 
+ 
