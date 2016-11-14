@@ -10,9 +10,9 @@ The file contains a program to perform live chat with the ChatBot written in pyt
 
 Sample program output:
 
-> Hey
-Hi there.
-> I wish to go on a tour
+> Hey\n
+Hi there.\n
+> I wish to go on a tour\n
 Which place do you wish to take a tour of ?
 > Disneyland
 Okay, so how many adults?
