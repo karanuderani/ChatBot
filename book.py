@@ -79,11 +79,30 @@ def main():
                     
                 else:
                     print (response['result']['fulfillment']['speech'])
+            elif action == u"weather":
+                if result['parameters']['date'] and result['parameters']['geo-city']:
+                    parameters = result['parameters']
+                    if parameters['condition']:
+                        print ("It won't")
+                    print(" The weather is going to be the {value}")
+                    data = {}
+                    data['date'] = result['parameters']['date']
+                    data['geo-city'] = result['parameters']['geo-city']
+                    data['condition'] = result['parameters']['condition']
+                    with open('input2.json','w') as outfile:
+                        json.dump(data, outfile)
+                
+                    data = {}
+                    data['weather'] = "rainy" #Can be anything based on the result
+                    data['response'] = "False" #Can be true or false based on the current weather
+                    with open('output2.json','w') as outfile:
+                        json.dump(data, outfile)
+                
+                else:
+                    print (response['result']['fulfillment']['speech'])
+                
             else:
                 print (response['result']['fulfillment']['speech'])
-                
-        else:
-            print (response['result']['fulfillment']['speech'])
 
         
         
