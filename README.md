@@ -31,13 +31,13 @@ Sample program output 2:
 <br />
  How is the weather today<br />
 Which place are you talking about ?<br />
-- New york<br />
+-New york<br />
  The weather is going to be the {value}<br />
-- Is it going to rain<br />
+-Is it going to rain<br />
 Which day are you talking about ?<br />
-- today<br />
+-today<br />
 Which place are you talking about ?<br />
-- Mumbai<br />
+-Mumbai<br />
 It won't<br />
  The weather is going to be the {value}<br />
  
